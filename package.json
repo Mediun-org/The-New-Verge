@@ -10,7 +10,8 @@
     "build": "webpack -p --config ./webpack.config.js --watch --display-error-details",
     "watch": "webpack -d --watch --config ./webpack.config.js --display-error-details",
     "heroku-postbuild": "webpack -p --config ./webpack.config.js",
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "test":  "jest --watchAll"
   },
   "author": "TheVerge",
   "license": "ISC",
@@ -22,6 +23,7 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
+    "jest": "^24.9.0",
     "nodemon": "^1.19.4",
     "prettier": "^1.19.1",
     "style-loader": "^1.0.0",
