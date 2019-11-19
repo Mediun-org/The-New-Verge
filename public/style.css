@@ -1,0 +1,209 @@
+
+.newsAll {
+    align-items: flex-start;
+    display: flex;
+    width: 650px;
+    height:110px;
+    border-top: 1px solid #e7e7e8;
+    margin-bottom: 8px;
+    padding: 8px 0;
+    margin: 0 auto;
+}
+
+.newsImg1{
+    top: 0;
+    
+} 
+.newsImg{
+    width: 209px;
+    height: 118px;
+}
+
+.newsTitle{
+    font-family:"adelle-sans",Helvetica,sans-serif;
+    margin-bottom: .6rem;
+    color: #424242;
+    font-size: 18px;
+    background-color: transparent;
+    margin-bottom: .6rem; 
+    font-size: .9em;
+    max-width: 437px;
+}
+
+.newspart {
+    padding-left: 16px;
+    max-width: 880px;
+}
+
+.newsLine {
+    font-family: 'Helvetica', 'sans-serif';
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: normal;
+    font-size: 13.5px;
+    color: #6A6A6A;
+}
+
+.newsAuthor{
+    color: #e2127A;    
+}
+
+.newsA{
+    height: 1.1em;
+    margin: 0 .4em;
+    vertical-align: middle;
+    width: 2px;
+    color: #e2127A;
+}
+
+.newsB{
+    border-left: 1px solid currentColor;
+    height: 1.1em;
+    vertical-align: middle;
+    width: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+.newsC{
+    border-left: 1px solid currentColor;
+    height: 1.1em;
+    vertical-align: middle;
+    width: 2px;
+    padding-left: 8px;
+}
+
+.newsTitle1{
+    text-decoration: none;
+    font-family:"adelle-sans",'Helvetica','sans-serif';
+    margin-bottom: .6rem;
+    color: #424242;
+    background-color: transparent;
+    margin-bottom: .6rem; 
+    font-size: 18px;
+    max-width: 437px;
+}
+
+/* Footer Style */
+.footer-logo {
+    width: 200px;
+}
+
+.footerAll{
+    background-color: #000;
+    color: #fff;
+    padding-top: 16px;
+    border-top: 1px solid #343434;
+    display: block;
+    margin-top: 453px;
+
+}
+
+.first-footer {
+    display: table;
+    padding: 16px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.l-footer {
+    margin: 0 auto;
+    max-width: 1100px;
+    font-size: 18px;
+}
+
+.footerSec {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    font-size: .75em;   
+     padding: 8px 16px;
+     font-family: Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.footerAll .FooterList {
+    margin: 0 0 8px;
+    padding: 0;
+}
+.FooterList {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.FooterList li:after {
+    content: "\2022";
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.FooterList li {
+    display: inline-block;
+}
+
+.no-decoration{
+    text-decoration: none;
+}
+
+.FooterList ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    text-decoration: none;
+}
+
+.FooterStatus a:before {
+    content: ".";
+    display: block;
+    height: 1px;
+    overflow: hidden;
+    width: 1px;
+}
+
+.FooterLast {
+    text-align: right;
+    width: 275px;
+}
+
+.FooterLast a {
+    margin-bottom: 8px;
+}
+
+.footerAll a {
+    color: #e2127A;
+    vertical-align: baseline;
+}
+
+.footerB{
+    display: block;
+}
+
+.FooterTxt {
+    display: inline-block;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+}
+.VoxLogo path, .VoxLogo polygon, .VoxLogo rect {
+    fill: #fff;
+}
+.VoxLogo{
+    width: 150px;
+}
+
+/* c-footer__section --  footerSec */
+/* c-footer__section-logo -- footer-logo */
+ /* c-footer__logo-link -- footerLink */
+ /* c-footer__section-links -- SecPart  */
+ /* .u-list-dot-sep -- FooterList */
+ /* c-footer__status -- FooterStatus */
+ /* c-footer__section-vox -- FooterLast */
+ /* u-block -- footerB */
+ /* u-hidden-text -- FooterTxt */
+ /* c-footer__vox-logo -- VoxLogo */
