@@ -34,6 +34,7 @@ class App extends React.Component {
       <h1>Item List</h1>
 
       {/* <List items={this.state.items}/> */}
+      
       <Stories/>
       <Footer/>
     </div>)
