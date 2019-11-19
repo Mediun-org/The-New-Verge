@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../public/style.css';
 
 class TopNews extends React.Component {
   constructor(props) {

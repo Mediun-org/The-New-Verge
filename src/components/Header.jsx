@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../public/style.css';
 
 class Header extends React.Component {
   constructor(props) {
@@ -7,20 +6,6 @@ class Header extends React.Component {
     this.state = {
       // items: []
     };
-  }
-
-  componentDidMount() {
-    // $.ajax({
-    //   url: '/items',
-    //   success: (data) => {
-    //     this.setState({
-    //       // items: data
-    //     });
-    //   },
-    //   error: (err) => {
-    //     console.log('err', err);
-    //   }
-    // });
   }
 
   render() {
