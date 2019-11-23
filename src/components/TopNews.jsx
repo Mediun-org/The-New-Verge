@@ -18,7 +18,11 @@ class TopNews extends React.Component {
                 <div className='content' id='article-1-line-1-content'>
                   <span className='title' id='big-title'>
                     <h2 className='big-title-heading'>
-                      <a href='#' id={this.props.data[0].id}>
+                      <a
+                        href={`https://peaceful-bayou-89377.herokuapp.com/?id=${this.props.data[0].id}`}
+                        target='_blankl'
+                        id={this.props.data[0].id}
+                      >
                         {this.props.data[0].title}
                       </a>
                     </h2>
@@ -37,7 +41,11 @@ class TopNews extends React.Component {
                 </div>
                 <div className='content'>
                   <span className='title'>
-                    <a href='#' id={this.props.data[1].id}>
+                    <a
+                      href={`https://peaceful-bayou-89377.herokuapp.com/?id=${this.props.data[1].id}`}
+                      target='_blankl'
+                      id={this.props.data[1].id}
+                    >
                       {this.props.data[1].title}
                     </a>
                   </span>
@@ -58,7 +66,11 @@ class TopNews extends React.Component {
                 </div>
                 <div className='content' id='article-1-line-2-content'>
                   <span className='title'>
-                    <a href='#' id={this.props.data[2].id}>
+                    <a
+                      href={`https://peaceful-bayou-89377.herokuapp.com/?id=${this.props.data[2].id}`}
+                      target='_blankl'
+                      id={this.props.data[2].id}
+                    >
                       {this.props.data[2].title}
                     </a>
                   </span>
@@ -77,7 +89,11 @@ class TopNews extends React.Component {
                 <div className='content' id='article-2-line-2-content'>
                   <span className='title' id='big-title'>
                     <h2 className='big-title-heading'>
-                      <a href='#' id={this.props.data[3].id}>
+                      <a
+                        href={`https://peaceful-bayou-89377.herokuapp.com/?id=${this.props.data[3].id}`}
+                        target='_blankl'
+                        id={this.props.data[3].id}
+                      >
                         {this.props.data[3].title}
                       </a>
                     </h2>
@@ -100,7 +116,11 @@ class TopNews extends React.Component {
                   </div>
                   <div className='content' className='line-3-content'>
                     <span className='title'>
-                      <a href='#' id={item.id}>
+                      <a
+                        href={`https://peaceful-bayou-89377.herokuapp.com/?id=${item.id}`}
+                        target='_blankl'
+                        id={item.id}
+                      >
                         {item.title}
                       </a>
                     </span>

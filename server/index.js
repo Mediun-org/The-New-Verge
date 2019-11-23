@@ -21,7 +21,9 @@ app.get('/home', function(req, res) {
       console.log('more errors');
       res.sendStatus(500);
     } else {
-      const dataArray = data.slice(0, 25);
+      let dataArray = data;
+      dataArray = shuffle(dataArray);
+      dataArray.slice(0, 30);
       const ids = [];
 
       dataArray.map((e) => {
@@ -42,6 +44,10 @@ app.get('/home', function(req, res) {
     }
   });
 });
+
+function shuffle(array) {
+  return array.sort(() => Math.random() - 0.5);
+}
 
 app.listen(port, () => {
   console.log(`listening on port ${port}!`);
