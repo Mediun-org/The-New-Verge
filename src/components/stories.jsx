@@ -15,7 +15,12 @@ class Stories extends React.Component {
               </div>
               <div className='newspart'>
                 <h2 className='newsTitle'>
-                  <a className='newsTitle1' href='#' id={item.id}>
+                  <a
+                    className='newsTitle1'
+                    href={`https://peaceful-bayou-89377.herokuapp.com/?id=${item.id}`}
+                    target='_blankl'
+                    id={item.id}
+                  >
                     {item.title}
                   </a>
                 </h2>
