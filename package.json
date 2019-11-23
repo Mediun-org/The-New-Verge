@@ -10,7 +10,7 @@
     "build": "webpack -p --config ./webpack.config.js --watch --display-error-details",
     "watch": "webpack -d --watch --config ./webpack.config.js --display-error-details",
     "heroku-postbuild": "webpack -p --config ./webpack.config.js",
-    "start": "nodemon server/index.js"
+    "start": "node server/index.js"
   },
   "author": "TheVerge",
   "license": "ISC",
