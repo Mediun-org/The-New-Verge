@@ -8,6 +8,8 @@ class Header extends React.Component {
     };
   }
 
+  getDataForHomePage() {}
+
   render() {
     return (
       <div className='heading'>
@@ -23,7 +25,7 @@ class Header extends React.Component {
             </svg>
           </div>
           <div className='date'>
-            <span>Monday, November 18, 2019</span>
+            <span>Saturday, November 23, 2019</span>
           </div>
         </div>
       </div>
